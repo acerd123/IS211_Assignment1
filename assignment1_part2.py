@@ -1,11 +1,24 @@
 
 class Book:
     def __init__(self, author, title):
-        pass
+        """
+
+        Constructor of a Book class
+
+        :param author: The author of the book
+        :param title: The title of the book
+        """
+        self.author = author
+        self.title = title
     
     def display(self):
-        pass
-
+        """Display the Book's author title"""
+        print(f"{self.title} written by {self.author}")
+        
 
 if __name__ == "__main__":
-    pass
+    book1 = Book("JK. Rowling", "Harry Potter and the Goblet of Fire")
+    book2 = Book("Walter Scott", Ivanhoe: A Romance")
+
+    book1.display()
+    book2.display()
